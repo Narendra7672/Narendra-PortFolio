@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #080d16;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    min-height: 100vh;
+    padding: 120px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #202938;
+}
+
+.section h1 {
+    font-size: 50px;
+    letter-spacing: 5px;
+}

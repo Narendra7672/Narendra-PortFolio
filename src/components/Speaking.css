@@ -1,0 +1,131 @@
+.speaking-section {
+    background: #080d16;
+    padding: 120px 8%;
+}
+
+.speaking-container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.speaking-heading h2 {
+    color: #f1f5f9;
+    font-size: clamp(40px, 6vw, 65px);
+    margin-top: 25px;
+    letter-spacing: -2px;
+}
+
+.speaking-heading h2 span {
+    color: #8292a8;
+}
+
+.speaking-heading p {
+    color: #929dad;
+    max-width: 570px;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+.speaking-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    margin-top: 60px;
+}
+
+.speaking-card {
+    background: #0e1521;
+    border: 1px solid #202c3c;
+    border-radius: 14px;
+    padding: 30px;
+    transition: 0.3s ease;
+}
+
+.speaking-card:hover {
+    background: #111c2b;
+    border-color: #65758d;
+}
+
+.speaking-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #8292a8;
+    font-size: 11px;
+    gap: 10px;
+}
+
+.speaking-category {
+    font-size: 9px;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+.speaking-icon {
+    color: #aab9cc;
+    margin-top: 40px;
+}
+
+.speaking-card h3 {
+    color: #f1f5f9;
+    font-size: 21px;
+    margin-top: 22px;
+}
+
+.speaking-card p {
+    color: #929dad;
+    font-size: 13px;
+    line-height: 1.8;
+    margin-top: 15px;
+    min-height: 75px;
+}
+
+.speaking-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #263244;
+    margin-top: 30px;
+    padding-top: 20px;
+    color: #aab9cc;
+    font-size: 11px;
+}
+
+.speaking-message {
+    text-align: center;
+    margin-top: 90px;
+    padding: 55px 20px;
+    border: 1px solid #202c3c;
+    border-radius: 14px;
+    background: #0e1521;
+}
+
+.speaking-message span {
+    color: #8292a8;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.speaking-message h3 {
+    color: #f1f5f9;
+    font-size: clamp(22px, 4vw, 35px);
+    margin-top: 25px;
+}
+
+.speaking-message p {
+    color: #929dad;
+    font-size: 13px;
+    margin-top: 18px;
+}
+
+@media (max-width: 750px) {
+
+    .speaking-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .speaking-section {
+        padding: 90px 6%;
+    }
+
+}

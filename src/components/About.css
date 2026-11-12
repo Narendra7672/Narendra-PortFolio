@@ -1,0 +1,143 @@
+.about-section {
+    background: #080d16;
+    padding: 120px 8%;
+}
+
+.about-container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.about-heading h2 {
+    color: #f1f5f9;
+    font-size: clamp(38px, 6vw, 65px);
+    margin-top: 25px;
+    letter-spacing: -2px;
+}
+
+.about-heading h2 span {
+    color: #8292a8;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-top: 55px;
+}
+
+.about-intro,
+.about-details {
+    background: #0e1521;
+    border: 1px solid #202c3c;
+    border-radius: 14px;
+    padding: 35px;
+}
+
+.about-icon {
+    color: #b7c5d8;
+}
+
+.about-intro h3 {
+    color: white;
+    font-size: 23px;
+    margin-top: 25px;
+}
+
+.about-intro p {
+    color: #929dad;
+    font-size: 14px;
+    line-height: 1.9;
+    margin-top: 20px;
+}
+
+.about-location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #a6b3c5;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.about-details {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.detail-card {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #273244;
+    color: #a8b6c8;
+}
+
+.detail-card:last-child {
+    border-bottom: none;
+}
+
+.detail-card span {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    color: #75859a;
+}
+
+.detail-card h3 {
+    color: #e2e8f0;
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.detail-card p {
+    color: #8995a7;
+    font-size: 12px;
+    margin-top: 8px;
+    line-height: 1.6;
+}
+
+.skills-container {
+    margin-top: 90px;
+}
+
+.skills-heading h3 {
+    color: white;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    margin-top: 30px;
+}
+
+.skill-item {
+    padding: 13px 20px;
+    background: #111c2b;
+    border: 1px solid #29384b;
+    border-radius: 8px;
+    color: #b8c5d5;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.skill-item:hover {
+    background: #26364b;
+    color: white;
+    border-color: #75859a;
+}
+
+@media (max-width: 750px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-section {
+        padding: 90px 6%;
+    }
+}
